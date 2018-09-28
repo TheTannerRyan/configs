@@ -1,0 +1,17 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.osx": "zsh",
+    "terminal.integrated.fontFamily": "FiraCode-Regular",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "python.linting.enabled": false,
+    "python.pythonPath": "/usr/local/bin/python3",
+    "[latex]": {
+        "editor.formatOnSave": false,
+        "latex-workshop.latex.clean.enabled": true,
+        "latex-workshop.view.pdf.viewer": "tab",
+        "latex-workshop.latex.autoBuild.onSave.enabled": true,
+    }
+}
