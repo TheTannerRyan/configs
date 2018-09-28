@@ -8,7 +8,8 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'gabrielelana/vim-markdown'
 Plugin 'itchyny/lightline.vim'
 Plugin 'dracula/vim'
-
+Plugin 'editorconfig/editorconfig-vim'
+ 
 call vundle#end()
 filetype plugin indent on
 
