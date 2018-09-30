@@ -9,6 +9,7 @@ ZSH_THEME="spaceship"
 
 SPACESHIP_GIT_PREFIX=":: "
 SPACESHIP_CHAR_SUFFIX=" "
+SPACESHIP_CHAR_SYMBOL="λ"
 
 SPACESHIP_PROMPT_ORDER=(
   #time          # Time stampts section
