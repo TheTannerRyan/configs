@@ -50,8 +50,9 @@ ENABLE_CORRECTION="true"
 
 plugins=(
   git
-  zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-autosuggestions
+  history-substring-search
 )
 
 source $ZSH/oh-my-zsh.sh
