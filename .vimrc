@@ -8,12 +8,14 @@ Plugin 'VundleVim/Vundle.vim'
 Bundle 'gabrielelana/vim-markdown'
 Plugin 'itchyny/lightline.vim'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'tpope/vim-sensible'
 
 call vundle#end()
 filetype plugin indent on
 
 set laststatus=2
 set noshowmode
+set number
 syntax on
 
 set background=dark
