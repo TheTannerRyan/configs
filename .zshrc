@@ -50,11 +50,17 @@ ENABLE_CORRECTION="true"
 
 plugins=(
   git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
 alias gitpush="~/push.sh"
+alias quit="clear && exit"
+
+alias vpnon="sudo networksetup -setv6off Wi-Fi && sudo networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4 && sudo zerotier-cli set abfd31bd47428dfa allowDefault=true 2>&1 >/dev/null && echo 'VPN ON!'"
+alias vpnoff="sudo networksetup -setv6automatic Wi-Fi && sudo networksetup -setdnsservers Wi-Fi empty && sudo zerotier-cli set abfd31bd47428dfa allowDefault=false 2>&1 >/dev/null && echo 'VPN OFF!'"
 
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
