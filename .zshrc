@@ -56,6 +56,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 alias gitpush="~/push.sh"
 alias quit="clear && exit"
