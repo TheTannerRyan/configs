@@ -1,6 +1,22 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.shell.osx": "zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBrightRed": "#cc6666",
+        "terminal.ansiBrightYellow": "#f0c674",
+        "terminal.ansiBrightGreen": "#b5bd68",
+        "terminal.ansiBrightCyan": "#8abeb7",
+        "terminal.ansiBrightBlue": "#81a2be",
+        "terminal.ansiBrightMagenta": "#b294bb",
+        "terminal.ansiRed": "#cc6666",
+        "terminal.ansiYellow": "#f0c674",
+        "terminal.ansiGreen": "#b5bd68",
+        "terminal.ansiCyan": "#8abeb7",
+        "terminal.ansiBlue": "#81a2be",
+        "terminal.ansiMagenta": "#b294bb",
+        "terminal.background": "#1d1f21",
+        "terminal.foreground": "#c5c8c6"
+    },
     "terminal.integrated.fontFamily": "FiraCode-Regular",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -12,6 +28,6 @@
         "editor.formatOnSave": false,
         "latex-workshop.latex.clean.enabled": true,
         "latex-workshop.view.pdf.viewer": "tab",
-        "latex-workshop.latex.autoBuild.onSave.enabled": true,
+        "latex-workshop.latex.autoBuild.onSave.enabled": true
     }
 }
