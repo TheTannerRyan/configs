@@ -19,7 +19,7 @@ set -g theme_display_virtualenv no
 set -g theme_display_ruby no
 
 # Display
-set -g theme_display_user no
+set -g theme_display_user yes
 set -g theme_display_hostname no
 set -g theme_display_vi no
 set -g theme_display_date no
@@ -40,7 +40,7 @@ set -g theme_show_exit_status no
 set -g theme_color_scheme dark
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_project_dir_length 0
-set -g theme_newline_cursor yes
+set -g theme_newline_cursor no
 
 # Disable fish greeting
 function fish_greeting
