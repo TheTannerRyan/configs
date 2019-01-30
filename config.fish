@@ -37,7 +37,7 @@ set -g theme_avoid_ambiguous_glyphs no
 set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts no
 set -g theme_show_exit_status no
-set -g theme_color_scheme dark
+set -g theme_color_scheme base16-light
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_project_dir_length 0
 set -g theme_newline_cursor no
@@ -46,9 +46,21 @@ set -g theme_newline_cursor no
 function fish_greeting
 end
 
+function pushy
+    git add .
+    git commit -m (uuidgen)
+    git push
+end
+
 alias quit "clear; and exit"
 
 # Golang
-set GOPATH $HOME/go
-set GOBIN $GOPATH/bin
-set PATH $GOBIN $PATH
+set -gx GOPATH $HOME/go
+set -gx GOBIN $GOPATH/bin
+set -gx PATH $GOBIN $PATH
+
+# Haskell
+set -gx PATH $HOME/Library/Haskell/bin $PATH
+
+# Up (github.com/TheTannerRyan/up)
+set -gx GIST_KEY "REDACTED"
