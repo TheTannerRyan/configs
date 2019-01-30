@@ -62,5 +62,5 @@ set -gx PATH $GOBIN $PATH
 # Haskell
 set -gx PATH $HOME/Library/Haskell/bin $PATH
 
-# Up (github.com/TheTannerRyan/up)
+# gist (github.com/TheTannerRyan/gist)
 set -gx GIST_KEY "REDACTED"
