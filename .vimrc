@@ -15,8 +15,14 @@ filetype plugin indent on
 
 set laststatus=2
 set noshowmode
+
 set number
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+
 syntax on
 
-set background=dark
+set background=light
 colorscheme PaperColor
