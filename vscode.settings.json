@@ -1,7 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
     "terminal.external.osxExec": "iTerm.app",
-    "workbench.colorCustomizations": {
+    /*     "workbench.colorCustomizations": {
         "terminal.ansiBrightRed": "#cc6666",
         "terminal.ansiBrightYellow": "#f0c674",
         "terminal.ansiBrightGreen": "#b5bd68",
@@ -16,18 +16,23 @@
         "terminal.ansiMagenta": "#b294bb",
         "terminal.background": "#1d1f21",
         "terminal.foreground": "#c5c8c6"
-    },
+    }, */
     "terminal.integrated.fontFamily": "FiraCode-Regular",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "window.zoomLevel": 0,
-    "editor.formatOnSave": true,
     "python.linting.enabled": false,
     "python.pythonPath": "/usr/local/bin/python3",
     "[latex]": {
-        "editor.formatOnSave": false,
-        "latex-workshop.latex.clean.enabled": true,
-        "latex-workshop.view.pdf.viewer": "tab",
-        "latex-workshop.latex.autoBuild.onSave.enabled": true
-    }
+        // "editor.formatOnSave": false,
+        // "latex-workshop.latex.clean.enabled": false,
+        // "latex-workshop.view.pdf.viewer": "tab",
+        // "latex-workshop.latex.autoBuild.onSave.enabled": false
+    },
+    "cSpell.language": "en-GB",
+    "breadcrumbs.enabled": true,
+    "editor.formatOnSave": true,
+    "latex-workshop.latex.autoBuild.onSave.enabled": true,
+    "workbench.colorTheme": "Tomorrow",
 }
+
