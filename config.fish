@@ -1,5 +1,8 @@
 # github.com/TheTannerRyan/configs/config.fish
-
+# Font: Fira Code Regular 13
+# Enabled features: antialias, bold fonts,
+#   blinking text, ANSI colors, bright bold.
+# Terminal theme: Solarized Dark
 
 # Git
 set -g theme_display_git yes
@@ -37,7 +40,7 @@ set -g theme_avoid_ambiguous_glyphs no
 set -g theme_powerline_fonts yes
 set -g theme_nerd_fonts no
 set -g theme_show_exit_status no
-set -g theme_color_scheme base16-light
+set -g theme_color_scheme solarized
 set -g fish_prompt_pwd_dir_length 1
 set -g theme_project_dir_length 0
 set -g theme_newline_cursor no

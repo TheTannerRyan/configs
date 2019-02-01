@@ -24,5 +24,5 @@ set expandtab
 
 syntax on
 
-set background=light
-colorscheme PaperColor
+set background=dark
+colorscheme solarized

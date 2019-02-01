@@ -67,3 +67,5 @@ alias vpnoff="sudo networksetup -setv6automatic Wi-Fi && sudo networksetup -setd
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$GOBIN:$PATH
+
+export GIST_KEY="REDACTED"
