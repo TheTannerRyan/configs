@@ -33,5 +33,5 @@
     "breadcrumbs.enabled": false,
     "editor.formatOnSave": true,
     "latex-workshop.latex.autoBuild.onSave.enabled": true,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "One Dark Pro",
 }
