@@ -43,4 +43,4 @@ if (empty($TMUX))
 endif
 
 set background=dark
-colorscheme PaperColor
+colorscheme onedark
