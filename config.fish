@@ -58,6 +58,9 @@ end
 
 alias quit "clear; and exit"
 
+alias v "nvim"
+alias vim "nvim"
+
 # Golang
 set -gx GOPATH $HOME/go
 set -gx GOBIN $GOPATH/bin
