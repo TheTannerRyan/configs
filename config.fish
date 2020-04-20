@@ -1,8 +1,8 @@
 # github.com/TheTannerRyan/configs/config.fish
 # Font: Fira Code Regular 13
 # Enabled features: bold font, blinking text,
-    italic text, enable subpixel anti-aliasing, 
-    anti-aliased, use ligatures
+# 	italic text, enable subpixel anti-aliasing, 
+#	anti-aliased, use ligatures
 # Terminal theme: base16-materia-256
 
 # Git
@@ -58,8 +58,16 @@ end
 
 alias quit "clear; and exit"
 
-alias v "nvim"
-alias vim "nvim"
+alias 6 "~/nvim/bin/nvim"
+alias v "~/nvim/bin/nvim"
+alias vim "~/nvim/bin/nvim"
+alias nvim "~/nvim/bin/nvim"
+
+
+function plan9
+    drawterm -h plan9.tannerryan.ca -a plan9.tannerryan.ca -u tanner
+end
+
 
 # Golang
 set -gx GOPATH $HOME/go
@@ -69,5 +77,13 @@ set -gx PATH $GOBIN $PATH
 # Haskell
 set -gx PATH $HOME/Library/Haskell/bin $PATH
 
+# Rust
+set -gx PATH $HOME/.cargo/bin $PATH
+
 # gist (github.com/TheTannerRyan/gist)
-set -gx GIST_KEY "REDACTED"
+set -gx GIST_KEY "99298ce023649cd74439e4f776bb592fa69744fe"
+
+set -gx GO111MODULE "on"
+
+set -gx PLAN9 /usr/local/plan9
+set -gx PATH $PATH $PLAN9/bin
