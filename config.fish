@@ -70,3 +70,4 @@ set -gx GO111MODULE "on"
 # GPG SSH authentication
 set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
+
