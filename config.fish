@@ -63,6 +63,10 @@ set -gx GOBIN $GOPATH/bin
 set -gx PATH $GOBIN $PATH
 
 # gist (github.com/TheTannerRyan/gist)
-set -gx GIST_KEY "99298ce023649cd74439e4f776bb592fa69744fe"
+set -gx GIST_KEY ""
 
 set -gx GO111MODULE "on"
+
+# GPG SSH authentication
+set -gx SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
